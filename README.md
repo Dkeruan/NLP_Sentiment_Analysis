@@ -63,7 +63,7 @@ These images showcase the sentiment distribution across different stocks, provid
 ## Future Work
 
 - Enhance model performance by addressing class imbalance in the dataset.
-- Explore more sophisticated ensemble models to improve sentiment prediction accuracy.
+- Train the language model on a larger dataset of financial jargon to improve domain knowledge and sentiment prediction accuracy.
 - Implement a user interface for easier interaction and visualization of sentiment trends.
 
 ## How to Run
