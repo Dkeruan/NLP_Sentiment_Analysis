@@ -55,8 +55,8 @@ The project successfully demonstrates the application of transfer learning in se
 
 ### Sample Output Images
 
-- ![Sentiment Distribution (Absolute)](output/sentiment_distribution_absolute.png)
-- ![Sentiment Distribution (Percentage)](output/sentiment_distribution_percentage.png)
+- <img src="output/sentiment_distribution_absolute.png" alt="Sentiment Distribution (Absolute)" width="500">
+- <img src="output/sentiment_distribution_percentage.png" alt="Sentiment Distribution (Percentage)" width="500">
 
 These images showcase the sentiment distribution across different stocks, providing insights into the overall market sentiment.
 
