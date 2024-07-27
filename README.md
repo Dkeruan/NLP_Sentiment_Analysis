@@ -29,23 +29,19 @@ This project aims to analyze sentiment in financial news headlines using the ULM
 
 - Scraped financial news headlines and timestamps.
 - Preprocessed the text data by tokenizing and numericalizing the inputs.
-- Combined the "Headlines" and "Description" columns to form the input text.
 
 ### 2. Language Model Fine-Tuning
-
-- Loaded a pre-trained AWD_LSTM language model.
-- Fine-tuned the model on the financial news dataset to capture domain-specific vocabulary and context.
+- Fine-tuned the pre-trained AWD_LSTM model on the financial news dataset to capture domain-specific vocabulary and context.
 
 ### 3. Classifier Training
 
-- Created a DataBlock for sentiment classification with the labeled dataset.
 - Fine-tuned the language model's last layers to adapt it to the classification task.
 - Evaluated the classifier using a separate test dataset.
 
 ### 4. Evaluation and Visualization
 
 - Analyzed model performance using accuracy and F1 scores.
-- Visualized sentiment distribution with bar plots and treemaps.
+- Visualized sentiment distribution with bar plots.
 
 ### 5. Deployment
 
@@ -73,7 +69,7 @@ These images showcase the sentiment distribution across different stocks, provid
 ## How to Run
 
 1. **Clone the repository**: `git clone <repository-url>`
-2. **Install dependencies**: `pip install -r requirements.txt`
+2. **Install dependencies**: Install necessary libraries
 3. **Train the model**: Follow the steps in the provided Jupyter notebooks.
 4. **Run the analysis**: Use the deployment script to scrape news and analyze sentiment.
 
